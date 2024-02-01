@@ -1,28 +1,30 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-ul, ol{
-    list-style: none;
+ul,
+ol {
+  list-style: none;
 }
 
-button{
-    cursor: pointer;
-    background: transparent;
-    border: none;
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
 }
 
-input, select{
-    background: transparent;
-    border: none;
+input,
+select {
+  background: transparent;
+  border: none;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-img{
-    max-width: 100%;
+img {
+  max-width: 100%;
 }

@@ -1,32 +1,42 @@
-.title{
-    font-family: var(--font-primary);
-    font-weight: 700;
-    line-height: 1.4;
+.title {
+  font-family: var(--font-primary);
+  font-weight: 700;
+  line-height: 1.4;
 }
 
-.title.md{
-    font-size: clamp(1.8rem, 5vw, 2.875rem);
+.title.center {
+  text-align: center;
 }
 
-.title.lg{
-    font-size: clamp(2rem, 5vw, 3.125rem);
+.title.md {
+  font-size: 1.5rem;
 }
 
-.title.blk{
-    color: var(--color-black);
+.title.md {
+  font-size: 2.875rem;
 }
 
-.title.wht{
-    color: var(--color-white);
+.title.lg {
+  font-size: 3.125rem;
 }
 
-.title.rd{
-    color: var(--color-red);
+.title.rd {
+  color: var(--color-red);
 }
 
-.paragraph{
-    font-family: var(--font-secondary);
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.8;
+.title.blk,
+.paragraph.blk {
+  color: var(--color-black);
+}
+
+.title.wht,
+.paragraph.wht {
+  color: var(--color-white);
+}
+
+.paragraph {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8;
 }

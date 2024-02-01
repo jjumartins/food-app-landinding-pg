@@ -1,0 +1,26 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="email"],
+.form input[type="password"],
+.form select {
+  padding: 0 1.875rem;
+  height: 3.625rem;
+
+  font-family: var(--font-primary);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-white);
+
+  border: 2px solid var(--color-white);
+  border-radius: 255px;
+}
+
+.form input::placeholder {
+  color: var(--color-offwhite);
+}
