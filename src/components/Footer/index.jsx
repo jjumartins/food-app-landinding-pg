@@ -1,8 +1,10 @@
+import styles from "./style.module.css"
+
 export const Footer = () => {
   return (<>
-    <footer>
+    <footer className={styles.footer}>
       <div className="container">
-        <p className="paragraph wht">Todos os direitos reservados - 2023.</p>
+        <p className="paragraph wht center">Todos os direitos reservados - 2023.</p>
       </div>
     </footer>
   </>)

@@ -1,12 +1,12 @@
 .container {
   width: 100%;
-  max-width: 1120px;
+  max-width: 1180px;
   margin: 0 auto;
   padding: 1.5rem;
 }
 
 .container.sm {
-  max-width: 620px;
+  max-width: 680px;
 }
 
 .section_rd {

@@ -1,0 +1,15 @@
+.flexbox {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(2rem, 5vw, 5rem);
+}
+
+.aboutSection h2 {
+  margin-top: 0.9375rem;
+}
+
+@media (min-width: 900px) {
+  .flexbox {
+    flex-direction: row;
+  }
+}

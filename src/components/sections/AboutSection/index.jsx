@@ -1,14 +1,17 @@
-import MobileIcon from '../../../assets/MobileIcon.svg'
+import MobileIcon from '../../../assets/MobileIcon.svg';
+import styles from './style.module.css';
 
 export const AboutSection = () => {
   return (<>
-    <section className='section_padding'>
+    <section className={`${styles.aboutSection} section_padding`}>
       <div className='container'>
-        <div>
-          <img src={MobileIcon} alt="Ícone Mobile" />
-          <h2 className='title lg blk'>Sobre o <span className='title rd'>aplicativo</span></h2>
+        <div className={styles.flexbox}>
+          <div>
+            <img src={MobileIcon} alt="Ícone Mobile" />
+            <h2 className='title lg blk'>Sobre o <span className='title rd'>aplicativo</span></h2>
+          </div>
+          <p className='paragraph blk'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus tempor ullamcorper. Vivamus porta lorem eu quam ultricies, non imperdiet erat elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus tempor ullamcorper. Vivamus porta lorem eu quam ultricies, non imperdiet erat elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus tempor ullamcorper. Vivamus porta lorem eu quam ultricies, non imperdiet erat elementum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin maximus tempor ullamcorper. Vivamus porta lorem eu quam ultricies, non imperdiet erat elementum.</p>
         </div>
-        <p className='paragraph blk'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestias, ut ea illo laboriosam cumque minus quam officia ipsum illum nesciunt vitae itaque quae. Fuga nostrum corporis recusandae incidunt? Nemo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, delectus! Minus cumque reprehenderit incidunt! Unde eaque nostrum fugiat, provident delectus quam officiis officia beatae ex vero labore saepe eius voluptatibus?</p>
       </div>
     </section>
   </>)

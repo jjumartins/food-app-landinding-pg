@@ -9,6 +9,7 @@
 .form input[type="email"],
 .form input[type="password"],
 .form select {
+  width: 100%;
   padding: 0 1.875rem;
   height: 3.625rem;
 
